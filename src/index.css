@@ -1,0 +1,15 @@
+body .header {
+    background-color: #f8f8f8;
+}
+
+.buttonPrimary{
+    background-color: rgb(21,49,71);
+}
+
+.textPrimary {
+    color: rgb(21,49,71);
+}
+
+.font {
+    font-family: Orbitron,sans-serif;
+}
