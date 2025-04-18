@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div
+        <div id="home"
             className="header relative flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-10 lg:px-16 py-12 lg:py-0 min-h-screen bg-no-repeat bg-right bg-contain"
             style={{
                 backgroundImage: 'url(./images/backdrop.png)',

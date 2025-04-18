@@ -1,6 +1,5 @@
-// src/components/HeaderMenuMobile.jsx
 import React from 'react';
-import { X } from 'lucide-react'; // pastikan lucide-react sudah diinstal
+import { X } from 'lucide-react'; 
 
 export default function HeaderMenuMobile({ show, onClose }) {
     return (
@@ -8,14 +7,12 @@ export default function HeaderMenuMobile({ show, onClose }) {
             className={`fixed top-0 left-0 h-full w-64 bg-white z-50 shadow-lg transform transition-transform duration-300 ease-in-out
             ${show ? 'translate-x-0' : '-translate-x-full'}`}
         >
-            {/* Close button */}
             <div className="flex justify-end p-4">
                 <button onClick={onClose} className="text-gray-700 hover:text-gray-900">
                     <X size={24} />
                 </button>
             </div>
 
-            {/* Menu Items */}
             <nav className="flex flex-col gap-4 px-6">
                 <span className="text-sm text-gray-500 font-semibold uppercase">Our Services</span>
                 <a href="#maintenance" onClick={onClose} className="hover:underline">Website Maintenance</a>

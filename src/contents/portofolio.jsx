@@ -28,7 +28,7 @@ export default function Portofolio() {
     ];
 
     return (
-        <section className="buttonPrimary py-16 px-4 sm:px-6 lg:px-16 text-center">
+        <section id="portofolio" className="buttonPrimary py-16 px-4 sm:px-6 lg:px-16 text-center">
                 <h1 style={{ fontFamily: 'Orbitron, sans-serif' }}
                  className="text-3xl lg:text-start text-white sm:text-4xl lg:text-5xl font-orbitron font-bold mb-10 leading-tight">
                     Our Portofolio

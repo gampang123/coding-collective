@@ -1,6 +1,6 @@
 export default function AbouUs(){
     return(
-        <div className="header relative flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-10 lg:px-16 py-12 lg:py-0 min-h-screen">
+        <div id="about" className="header relative flex flex-col-reverse lg:flex-row items-center justify-between px-6 md:px-10 lg:px-16 py-12 lg:py-0 min-h-screen">
             <div className="w-full lg:w-1/2 text-center  lg:text-right z-10">
                 <h1 style={{ fontFamily: 'Orbitron, sans-serif' }}
                  className="text-3xl sm:text-4xl lg:text-5xl font-orbitron font-bold mb-4 leading-tight">

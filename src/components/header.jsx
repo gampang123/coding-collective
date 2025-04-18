@@ -24,12 +24,13 @@ export default function Header() {
 
     return (
         <header className={`header fixed top-0 left-0 w-full z-50 px-4 py-4 md:px-8 lg:px-16 flex justify-between items-center transition-shadow duration-300 ${isScrolled ? 'shadow-md bg-white' : ''}`}>
-            {/* Logo */}
-            <div className="w-auto flex-shrink-0">
-                <img className="w-16 md:w-18" src="./images/logo.png" alt="CO2 Lab" />
-            </div>
+            <a href="#home">
+                <div className="w-auto flex-shrink-0">
+                    <img className="w-16 md:w-18" src="./images/logo.png" alt="CO2 Lab" />
+                </div>
+            </a>
+            
 
-            {/* Hamburger Icon (Mobile Only) */}
             <div className="lg:hidden">
                 <button
                     onClick={() => setShowMobileMenu(!showMobileMenu)}
@@ -47,7 +48,6 @@ export default function Header() {
                 </button>
             </div>
 
-            {/* Desktop Nav */}
             <nav className="hidden lg:flex items-center gap-8 text-center relative">
                 <div className="relative">
                     <button

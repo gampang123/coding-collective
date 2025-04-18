@@ -1,6 +1,6 @@
 export default function ContactUs() {
     return (
-        <section className="bg-[#f9f8f4] py-16 px-4 sm:px-6 lg:px-16">
+        <section id="contact" className="bg-[#f9f8f4] py-16 px-4 sm:px-6 lg:px-16">
             <h1
                 style={{ fontFamily: 'Orbitron, sans-serif' }}
                 className="text-3xl sm:text-4xl lg:text-5xl font-orbitron font-bold mb-10"
