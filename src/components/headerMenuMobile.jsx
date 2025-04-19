@@ -1,5 +1,6 @@
 import React from 'react';
 import { X } from 'lucide-react'; 
+import { Link } from 'react-router-dom';
 
 export default function HeaderMenuMobile({ show, onClose }) {
     return (
@@ -15,16 +16,24 @@ export default function HeaderMenuMobile({ show, onClose }) {
 
             <nav className="flex flex-col gap-4 px-6">
                 <span className="text-sm text-gray-500 font-semibold uppercase">Our Services</span>
-                <a href="#maintenance" onClick={onClose} className="hover:underline">Website Maintenance</a>
-                <a href="#development" onClick={onClose} className="hover:underline">Website & App Development</a>
-                <a href="#support" onClick={onClose} className="hover:underline">IT Support</a>
-                <a href="#ai" onClick={onClose} className="hover:underline">3rd Party AI Solution</a>
+                <Link to="/maintenance">
+                    <a onClick={onClose} className="hover:underline">Website Maintenance</a>
+                </Link>
+                <Link to="/website">
+                    <a onClick={onClose} className="hover:underline">Website & App Development</a>
+                </Link>
+                <Link to="/it">
+                    <a onClick={onClose} className="hover:underline">IT Support</a>
+                </Link>
+                <Link to="/ai">
+                    <a onClick={onClose} className="hover:underline">3rd Party AI Solution</a>
+                </Link>
 
                 <hr className="my-2" />
 
-                <a href="#about" onClick={onClose}>About Us</a>
-                <a href="#portofolio" onClick={onClose}>Portfolio</a>
-                <a href="#contact" onClick={onClose}>Contact Us</a>
+                <Link to="/#about" onClick={onClose}>About Us</Link>
+                <Link to="/#portofolio" onClick={onClose}>Portfolio</Link>
+                <Link to="/#contact" onClick={onClose}>Contact Us</Link>
 
                 <button
                     className="mt-6 bg-[rgb(21,49,71)] text-white rounded-md py-2 px-4 font-medium shadow hover:scale-105 transition"

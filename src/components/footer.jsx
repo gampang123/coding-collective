@@ -3,7 +3,7 @@ import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function Footer() {
     return (
-        <footer className="buttonPrimary text-white px-6 lg:px-16 py-12">
+        <footer className="colorFooter text-white px-6 lg:px-16 py-12">
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 lg:grid-cols-5 gap-10">
 
                 <div className="md:col-span-2">

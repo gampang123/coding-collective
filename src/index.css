@@ -13,3 +13,12 @@ body .header {
 .font {
     font-family: Orbitron,sans-serif;
 }
+
+.colorFooter {
+ background-color: rgb(20, 21, 22);
+}
+
+.buttonQuote {
+    background-color: rgb(255, 215, 87);
+    color: black;
+}
